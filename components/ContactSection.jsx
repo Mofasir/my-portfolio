@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactSection = () => {
     return (
-        <div className="border-t border-white/20 py-4 my-12 xl:my-0 xl:mb-12">
+        <div className="container mx-auto border-t border-white/20 py-4 my-12 xl:my-0 xl:mb-12">
             <motion.h2
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -21,7 +21,7 @@ const ContactSection = () => {
                 viewport={{ once: true }}
                 className="text-center tracking-tighter"
             >
-                <p className="my-4">Tasikmalaya Regency, West Jawa 46415</p>
+                <p className="my-4">Sindanggalih, Sukagalih, Sukaratu, Tasikmalaya Regency, West Java, 46415.</p>
                 <p className="my-4">+62 821 2001 9800</p>
                 <a href="#" className="border-b">
                     misteralfikri@gmail.com

@@ -30,4 +30,8 @@
   .text-outline-hover {
     -webkit-text-stroke: 1px #00FFFD;
   }
+
+  .no-click {
+    pointer-events: none; /* Disable click events */
+  }
 }

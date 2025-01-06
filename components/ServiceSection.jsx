@@ -7,25 +7,25 @@ const service = [
     {
         num: "01",
         title: "Web Development",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
+        desc: "Building modern and responsive websites using the latest technologies to deliver optimal user experiences and top performance.",
         href: ""
     },
     {
         num: "02",
         title: "UI/UX Design",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
+        desc: "Designing intuitive and visually appealing interfaces with a research-driven approach to enhance user satisfaction and engagement.",
         href: ""
     },
     {
         num: "03",
-        title: "Data Analyst",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
+        title: "Data Science",
+        desc: "Processing and analyzing complex data to generate valuable insights that support strategic decision-making.",
         href: ""
     },
     {
         num: "04",
-        title: "Data Science",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.",
+        title: "Data Analyst",
+        desc: "Providing accurate and detailed data analysis to help identify trends and patterns relevant to your business growth.",
         href: ""
     },
 ];
@@ -87,7 +87,7 @@ const ServiceSection = () => {
                                     <div className="text-4xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
                                     <Link
                                         href={service.href}
-                                        className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                                        className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45 no-click"
                                     >
                                         <BsArrowDownRight className="text-primary text-2xl" />
                                     </Link>

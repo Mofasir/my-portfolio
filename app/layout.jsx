@@ -1,5 +1,6 @@
 import { Exo_2 } from "next/font/google";
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 
 // components
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <StairTransition />
         <PageTrasition >{children}</PageTrasition>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

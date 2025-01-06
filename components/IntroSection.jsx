@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
@@ -7,6 +9,12 @@ import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
 const IntroSection = () => {
+  const handleDownloadCV = () => {
+    // Ganti dengan link file CV Anda di Google Drive
+    const cvLink = "https://drive.google.com/file/d/1riXXUSLetimmPKfAU8wdOutuU1hltH3g/view?usp=drive_link";
+    window.open(cvLink, "_blank");
+  };
+
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -27,6 +35,7 @@ const IntroSection = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
+                onClick={handleDownloadCV}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />

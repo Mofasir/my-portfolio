@@ -7,14 +7,15 @@ import {
     FaReact,
     FaFigma,
     FaNodeJs,
+    FaPhp
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiPython } from "react-icons/si";
 
 // about data
 const about = {
     title: "About me",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione quas. Suscipit dolorum.",
+    desc: "A brief introduction to my background, personal details, and professional journey.",
     info: [
         {
             fieldName: "Name",
@@ -38,7 +39,7 @@ const about = {
         },
         {
             fieldName: "Languages",
-            fieldValue: "Indonesia, English, Arabic"
+            fieldValue: "Indonesian, English, Arabic"
         },
     ],
 };
@@ -47,27 +48,32 @@ const about = {
 const experience = {
     icon: "assets/resume/badge.svg",
     title: "My experience",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione quas. Suscipit dolorum.",
+    desc: "A comprehensive overview of my internship, work, and organizational experiences that showcase my professional growth and achievements.",
     items: [
         {
-            company: "Tech Solutions Inc.",
-            position: "Full Stack Developer",
-            duration: "2022 - Present",
+            company: "UI/UX, FE Dev",
+            position: "Freelancer",
+            duration: "Sep 2024 - Present",
         },
         {
-            company: "Pesantren At-Tajdid",
-            position: "Full Stack Developer Intern Specialist",
-            duration: "2022 - Present",
+            company: "BPS Tasikmalaya",
+            position: "Data Management Intern",
+            duration: "Aug 2024 - Sep 2024",
         },
         {
-            company: "Tech Solutions Inc.",
-            position: "Full Stack Developer",
-            duration: "2022 - Present",
+            company: "SMP Plus Muhammadiyah",
+            position: "ICT Teacher (Part-time)",
+            duration: "Jul 2023 - Jun 2024",
         },
         {
-            company: "Tech Solutions Inc.",
-            position: "Full Stack Developer",
-            duration: "2022 - Present",
+            company: "PD IPM Kab. Tasik (Org)",
+            position: "Ketua Bidang KDI",
+            duration: "2023 - Present",
+        },
+        {
+            company: "HMIF Unsil (Org)",
+            position: "Anggota Divisi Pengabdian Masyarakat",
+            duration: "2023",
         },
     ],
 };
@@ -76,27 +82,27 @@ const experience = {
 const education = {
     icon: "assets/resume/cap.svg",
     title: "My education",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione quas. Suscipit dolorum.",
+    desc: "Highlights of my formal education and additional courses that have enhanced my skills and knowledge in various fields.",
     items: [
         {
-            institution: "Tech Solutions Inc.",
-            degree: "Full Stack Developer",
+            institution: "Universitas Siliwangi",
+            degree: "Informatika",
+            duration: "2021 - Present",
+        },
+        {
+            institution: "GreatEdu - MSIB 6",
+            degree: "Data Science Bootcamp",
+            duration: "Feb 2024 - Jun 2024",
+        },
+        {
+            institution: "Dicoding Indonesia",
+            degree: "Web Development, Data Science",
             duration: "2022 - Present",
         },
         {
-            institution: "Tech Solutions Inc.",
-            degree: "Full Stack Developer",
-            duration: "2022 - Present",
-        },
-        {
-            institution: "Tech Solutions Inc.",
-            degree: "Full Stack Developer",
-            duration: "2022 - Present",
-        },
-        {
-            institution: "Tech Solutions Inc.",
-            degree: "Full Stack Developer",
-            duration: "2022 - Present",
+            institution: "SMA At-Tajdid Boarding School",
+            degree: "IPA Terpadu",
+            duration: "2017 - 2020",
         },
 
     ],
@@ -105,7 +111,7 @@ const education = {
 // skills data
 const skills = {
     title: "My skills",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione quas. Suscipit dolorum.",
+    desc: "A detailed list of my technical expertise and tools, including the tech stack I use to deliver high-quality solutions.",
     skillList: [
         {
             icon: <FaHtml5 />,
@@ -134,6 +140,14 @@ const skills = {
         {
             icon: <FaNodeJs />,
             name: "node.js",
+        },
+        {
+            icon: <FaPhp />,
+            name: "php",
+        },
+        {
+            icon: <SiPython />,
+            name: "python",
         },
         {
             icon: <FaFigma />,
